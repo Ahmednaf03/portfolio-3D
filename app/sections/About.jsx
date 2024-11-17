@@ -19,10 +19,10 @@ const About = () => {
         xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5">
             <div className="col-span-1 xl:row-span-3">
                 <div className="grid-container">
-                   <img src="../assets/grid1.png" alt="grid-1" 
+                   <img src="../assets/EditedGrid1.png" alt="grid-1" 
                    className="w-full sm:h-[276px] h-fit object-contain"/> 
                    <div className="">
-                    <p className="grid-headtext">Hi I&apos;m Ahmed</p>
+                    <p className="grid-headtext">Hi I&apos;m Tanvi</p>
                     <p className="grid-subtext"> with 1 year of experience i have honed
                         my skills in both front-end and back-end development as a freelancing developer.
                     </p>
