@@ -1,6 +1,4 @@
 import dynamic from "next/dynamic";
-// import About from "./sections/About";
-import PhExperience from "./sections/PhExperience";
 import Contacts from "./sections/Contacts";
 const Experience = dynamic(() => import('./sections/Experience'), { 
   ssr: false
