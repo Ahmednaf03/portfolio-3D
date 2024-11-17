@@ -71,7 +71,7 @@ const About = () => {
                     className="w-full sm:h-[266px] h-fit object-contain" />
                     <div>
                         <p className="grid-headtext"> My passion for coding</p>
-                        <p className="grid-subtext">I love solving problems and creating things through code
+                        <p className="grid-subtext">I love solving problem and creating things through code
                             and I&apos;m always looking for new challenges.
                         </p>
                     </div>
