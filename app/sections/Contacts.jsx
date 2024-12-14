@@ -13,7 +13,7 @@ const Contacts = () => {
   const handleChange=({target:{name,value}})=>{
     setForm({...form,[name]:value})
   }
-  //service_vns79by
+
   const handleSubmit= async (e)=>{
     e.preventDefault();
     setLoading(true);
