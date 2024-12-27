@@ -6,6 +6,7 @@ const Experience = dynamic(() => import('./sections/Experience'), {
 import Footer from "./sections/Footer";
 import Hero from "./sections/Hero";
 import Navbar from "./sections/Navbar";
+const Projects = dynamic(()=> import("./sections/Projects"),{ssr:false})
 const About = dynamic(() => import('./sections/About'), { 
   ssr: false
 })
@@ -18,7 +19,7 @@ export default function Home() {
       <Navbar/>
       <Hero/>
       <About/>
-      {/* <Projects/> */}
+      <Projects/>
       <Experience/>
       <Contacts/>
       <Footer/>
