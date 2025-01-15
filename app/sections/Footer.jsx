@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
     </div>
     <p className="text-white-500">
-        &copy; 2024 Ahmed. All rights reserved
+        &copy; 2025 Ahmed. All rights reserved
     </p>
    </section>
   )
